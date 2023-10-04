@@ -6,7 +6,7 @@ import WeatherApp from "./components/weatherApp";
 const App = () => {
   return (
     <div className={styles.body}>
-      <WeatherApp />;
+      <WeatherApp />
     </div>
   );
 };
