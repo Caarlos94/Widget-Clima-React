@@ -1,6 +1,6 @@
 .mainInfo {
     background-color: white;
-    padding: 40px;
+    padding: 30px;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -15,13 +15,21 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .condition {
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .current {
-    font-size: 38px;
+    font-size: 28px;
     font-weight: bold;
+}
+
+.contInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

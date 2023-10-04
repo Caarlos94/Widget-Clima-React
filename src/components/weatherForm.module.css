@@ -7,6 +7,26 @@
     padding: 10px;
     box-sizing: border-box;
     font-size: 18px;
-    border: 0;
+    border: 1px solid transparent;
     border-radius: 3px;
+}
+
+.input:hover {
+    border: 1px solid black;
+}
+
+.button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(72, 122, 221);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 255, 0.749);
 }

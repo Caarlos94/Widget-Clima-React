@@ -23,7 +23,7 @@ export default function WeatherForm({ changeCity }) {
         onChange={(e) => handleChange(e)}
         value={city}
       ></input>
-      <button>Search</button>
+      <button className={styles.button}>Search</button>
     </form>
   );
 }
