@@ -9,6 +9,8 @@ export default function WeatherApp() {
 
   function changeCity(city) {
     setWeather("");
+    setError(false);
+    city = city.trim();
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_KEY}&units=metric`
     )

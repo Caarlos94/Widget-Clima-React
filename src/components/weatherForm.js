@@ -6,7 +6,6 @@ export default function WeatherForm({ changeCity }) {
 
   function handleChange(e) {
     let value = e.target.value;
-    value.trim();
     setCity(value);
   }
 
